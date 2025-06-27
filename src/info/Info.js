@@ -92,7 +92,7 @@ export const info = {
         {
             label: 'cooking',
             emoji: '🌶'
-        }
+        },
         {
             label: 'photography',
             emoji: '📸'
@@ -100,14 +100,14 @@ export const info = {
         {
             label: 'music',
             emoji: '🎧'
-        }
+        },
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "A Basic Implementation of a DevSecOps Project",
-            link: "A local Deployment" //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            link: "A local Deployment", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/nshivakumar1/devsecops-project.git", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
