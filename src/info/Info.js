@@ -1,9 +1,9 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+//import mock2 from "../img/mock2.png"
+//import mock3 from "../img/mock3.png"
+//import mock4 from "../img/mock4.png"
+//import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -40,7 +40,7 @@ export const info = {
             text: 'fueled by coffee'
         },
         {
-            emoji: '🌎',
+            emoji: '🌎 🇮🇳',
             text: 'based in India'
         },
         {
@@ -69,16 +69,16 @@ export const info = {
             icon: "fa fa-substack",
             label: 'substack'
         }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
+        // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
+        // Just change the links so that they lead to your social profiles.
 
     ],
     bio: "Hello! I'm Nakul. I'm an Associate Technical engineer for Kyndryl. I studied MBA from Amity University, I enjoy long walks, cooking, listening to Music and Photography, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
-        {
-            proficientWith: ['git', 'github', 'Linux', 'Docker', 'Jira Service Management', 'BMC-Control-M', 'ServiceNow','BMC-Helix Control-M','AWS','Azure'],
-            exposedTo: [ 'python']
-        }
+    {
+        proficientWith: ['git', 'github', 'Linux', 'Docker', 'Jira Service Management', 'BMC-Control-M', 'ServiceNow', 'BMC-Helix Control-M', 'AWS', 'Azure'],
+        exposedTo: ['python']
+    }
     ,
     hobbies: [
         {
@@ -100,14 +100,14 @@ export const info = {
         {
             label: 'music',
             emoji: '🎧'
-        },
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+        }
+        // Same as above, change the emojis to match / relate to your hobbies or interests.
+        // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "A Basic Implementation of a DevSecOps Project",
-            link: "A local Deployment", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            live: "A local Deployment", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/nshivakumar1/devsecops-project.git", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
